@@ -1,4 +1,3 @@
-
 /// \file CRhombus.cpp
 ///	\brief class Rhombus: implementation of the functions
 ///
@@ -74,7 +73,7 @@ Rhombus::Rhombus(const Rhombus& r) :Quadrilateral(r) {
 }
 
 /// @brief overload of operator = 
-/// @param o reference to the object on the right side of the operator 
+/// @param r reference to the object on the right side of the operator 
 /// @return reference to the object on the left side of the operator 
 Rhombus& Rhombus::operator=(const Rhombus& r) {
 
@@ -246,7 +245,7 @@ void Rhombus::Dump() {
 }
 
 
-/// @brief to draw a rhombus
+/// @brief istructions to draw a rhombus
 void Rhombus::Drawing() {
 
 
