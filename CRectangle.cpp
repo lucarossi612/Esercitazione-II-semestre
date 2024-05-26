@@ -64,7 +64,7 @@ Rectangle::~Rectangle() {
 }
 
 /// @brief copy constructor 
-/// @param o reference to the object that should be copied 
+/// @param r reference to the object that should be copied 
 Rectangle::Rectangle(const Rectangle &r) :Quadrilateral(r) { 
 
 	cout << "Rectangle - copy constructor" << endl;
@@ -74,7 +74,7 @@ Rectangle::Rectangle(const Rectangle &r) :Quadrilateral(r) {
 }
 
 /// @brief overload of operator = 
-/// @param o reference to the object on the right side of the operator 
+/// @param r reference to the object on the right side of the operator 
 /// @return reference to the object on the left side of the operator 
 Rectangle& Rectangle::operator=(const Rectangle &r) { 
 
@@ -230,7 +230,7 @@ void Rectangle::Dump() {
 
 }
 
-/// @brief to draw a rectangle
+/// @brief istructions to draw a rectangle
 void Rectangle::Drawing() {
 	
 	cout << "--- Drawing istructions ---" << endl;
