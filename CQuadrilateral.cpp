@@ -1,3 +1,9 @@
+/// \file CQuadrilateral.cpp
+///	\brief class Quadrilateral: implementation of the functions
+///
+///	Details.
+///
+
 #include "CQuadrilateral.h"
 
 /// @brief default constructor 
@@ -98,7 +104,7 @@ void Quadrilateral::Init(Format sf) {
 }
 
 /// @brief initialization of the object as a copy of an object 
-/// @param r reference to the object that should be copied 
+/// @param o reference to the object that should be copied 
 void Quadrilateral::Init(const Quadrilateral& o) {
 	Reset();
 	Init(*o.shapef);
@@ -226,7 +232,7 @@ void Quadrilateral::Dump() {
 	cout << endl;
 }
 
-/// @brief for conversion from number to string of the oject's color
+/// @brief for conversion from number to string of the object's color
 /// @param the color that should be converted
 const char* Quadrilateral::colorName(Color x)
 {
