@@ -10,6 +10,7 @@
 
 Quadrilateral* ShapeList[50];
 
+/// @brief display the menu with the features available
 void menu(void)
 {
 	cout << endl << "\t _________________________" << endl;
@@ -24,7 +25,7 @@ void menu(void)
 	cout << "Enter a number:\t";
 }
 
-
+/// @brief display the entire list of shapes created
 void ShowAll()
 {
 	int i = 0;
@@ -48,6 +49,7 @@ void ShowAll()
 }
 
 
+/// @brief add a new shape to the list
 void AddShape()
 {
 	int i = 0;
@@ -157,7 +159,9 @@ void AddShape()
 	}
 }
 
-
+/// @brief convert from number (user choise) to color
+/// @param n number entered by the user
+/// @return letter of the corresponding color 
 Color ShapeColor(int n)
 {
 	if (n == 0)
@@ -174,7 +178,7 @@ Color ShapeColor(int n)
 		return k; //k (blacK) used as default value
 }
 
-
+/// @brief remove a shape from the list chosen by number by the user
 void RemoveShape()
 {
 	int i;
@@ -195,7 +199,7 @@ void RemoveShape()
 	}
 }
 
-
+/// @brief clear the entire list
 void RemoveAll()
 {
 	for (int i = 0; i < 50; i++)
