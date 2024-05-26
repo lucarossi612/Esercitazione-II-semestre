@@ -13,12 +13,12 @@
 #include "CRectangle.h"
 #include "CRhombus.h"
 
-/// @name Shapes array declaration
+/// @name ARRAY OF SHAPES
 /// @{
 extern Quadrilateral* ShapeList[50];
 /// @}
 
-/// @name Functions used in main_display.cpp
+/// @name FUNCTIONS IN main_display.cpp
 /// @{
 void menu(void);
 void ShowAll();
