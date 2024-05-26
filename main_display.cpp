@@ -7,6 +7,7 @@
 #include <iostream>
 #include "DisplayFunctions.h"
 
+/// @brief main function
 int main() {
 
 	for (int i = 0; i < 50; i++)
